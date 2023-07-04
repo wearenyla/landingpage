@@ -1,0 +1,117 @@
+<html lang="en">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Coming Soon</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Rubik', sans-serif;
+            text-align: center;
+            color: #2e4c9e;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            max-width: 600px;
+            padding: 2%;
+        }
+
+        h1 {
+            font-size: 8vw;
+            margin-bottom: 20px;
+            line-height: 1;
+            white-space: nowrap;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 20px 0;
+            color: #2e4c9e;
+        }
+
+        .highlighted-text {
+            color: #f15a22;
+            text-decoration: underline;
+        }
+
+        .input-form {
+            display: flex;
+            align-items: stretch;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            max-width: 300px;
+            
+        }
+
+        .input-form input {
+            flex: 1;
+            padding: 10px;
+            border: 2px solid #2e4c9e;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .input-form button {
+            background-color: #2e4c9e;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 0 5px 5px 0;
+        }
+
+        .logo-container {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            padding: 20px 0;
+            background-color: #ffff;
+        }
+
+        .logo {
+            max-width: 200px;
+            height: auto;
+        }
+
+        @media only screen and (max-width: 576px) {
+            
+            p{
+                font-size: 4vw;
+            }
+
+            h1{
+                font-size: 10vw;
+            }
+
+ 
+            } 
+
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+        <img class="logo" src="/Users/anitaawolaja/Desktop/Nyla/Screenshot 2023-06-30 at 15.44.12.png" alt="Logo">
+    </div>
+    <div class="container">
+        <h1>Coming Soon</h1>
+        <p>Your AI enabled career companion, providing <span class="highlighted-text">personalised guidance and support</span> to help you succeed.</p>
+        <form class="input-form">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Notify Me</button>
+        </form>
+    </div>
+</body>
+</html>
